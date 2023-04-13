@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+
+.header {
+    text-decoration: underline;
+    background: #F0F0F0;
+    width: 100%;
+    color: #A4A400;
+    cursor: no-drop;
+}
+.text {
+    margin-left: 20%;
+    font-size: 22pt;
+}
+
+img {
+    width: 40rem;
+    height: 30rem;
+    padding: 10px;
+}
+.list {
+    padding: 20px;
+    list-style: none;
+    font-size: 22pt;
+}
+.list1 {
+    padding: 30px;
+    font-size: 22pt;
+}
+.ptool {
+    text-decoration: underline;
+    position: relative;
+    cursor: help;
+}
+.tooltip {
+    position: absolute;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 120px;
+    min-height: 10px;
+    padding: .2rem;
+    text-align: center;
+    border-radius: 5px;
+    bottom: 2rem;
+    left: -2rem;
+    visibility: hidden;
+}
+.tooltip::after {
+    content: "";
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid red;
+    top: 73px;
+    left: 58px;
+}
+
+span:hover .tooltip {
+visibility: visible;
+}
+.list2 {
+    list-style: none;
+    padding: 30px;
+    font-size: 22pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+.comment {
+    background: rgba(238, 238, 116, 0.911);
+    font-size: 20pt;
+    font-family: italic;
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    text-decoration-style: wavy;
+    color: #A4A400;
+}
